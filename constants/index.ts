@@ -241,6 +241,14 @@ export const DATA_SCIENCE_SKILL = [
 ] as const satisfies Skill[];
 
 export const PROJECTS = [
+
+  {
+    title: "Air Quality Forecasting",
+    description:
+      "A machine learning regression project forecasting hourly PM2.5 air pollution in Beijing. By leveraging historical air quality and weather data, a tuned Lasso model accurately predicts upcoming pollution levels with an R² of 0.94.",
+    image: "/projects/project-Air Quality Forecasting.png",
+    link: "https://github.com/hyphen0009",
+  },
   {
     title: "Lost & found",
     description:
@@ -252,9 +260,10 @@ export const PROJECTS = [
     title: "Movie Browser",
     description:
       "An AngularJS movie browser for finding movies and checking ratings using the TMDB API.",
-    image: "/projects/project-2.png",
+    image: "/projects/movie-browser.png",
     link: "https://movie-browser-gray.vercel.app/",
   },
+
 ] as const;
 
 export const FOOTER_DATA = [
